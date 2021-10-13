@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E3671E08-71C9-43AC-BCC6-0FA861C40B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{92753CC7-2590-4928-8A13-674346349319}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRAI", "SRAI", "{BBC49E0E-43F8-4B8B-B90F-7CB6DC0B8795}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructure", "Services\Template\Infraestructure\Infraestructure.csproj", "{3FD0EAC3-DE34-4771-98E4-DDE9BBA0F036}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Services\Template\Entities\Entities.csproj", "{B03A2C5F-D2BA-4959-BCB0-A772C03015F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Services\Template\Domain\Domain.csproj", "{CDC7A59D-1EB4-42AC-A0DD-671F1FD5A2DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{D032EE2E-A18D-4FA0-8A42-9D51F5E59E56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Host", "Services\Template\Host\Host.csproj", "{6BAB42DD-1544-4F63-A0A3-34DDFE4AC5E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRAITransversal", "Transversal\TemplateTransversal\SRAITransversal.csproj", "{3B0314FD-8CCE-492B-B0B7-144EEEAF9091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRAIWeb", "Presentation\TemplateWeb\SRAIWeb.csproj", "{324AEB8F-8961-4C85-9B5B-40A850DA0990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FD0EAC3-DE34-4771-98E4-DDE9BBA0F036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD0EAC3-DE34-4771-98E4-DDE9BBA0F036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD0EAC3-DE34-4771-98E4-DDE9BBA0F036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD0EAC3-DE34-4771-98E4-DDE9BBA0F036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03A2C5F-D2BA-4959-BCB0-A772C03015F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03A2C5F-D2BA-4959-BCB0-A772C03015F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03A2C5F-D2BA-4959-BCB0-A772C03015F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03A2C5F-D2BA-4959-BCB0-A772C03015F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC7A59D-1EB4-42AC-A0DD-671F1FD5A2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC7A59D-1EB4-42AC-A0DD-671F1FD5A2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC7A59D-1EB4-42AC-A0DD-671F1FD5A2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC7A59D-1EB4-42AC-A0DD-671F1FD5A2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAB42DD-1544-4F63-A0A3-34DDFE4AC5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAB42DD-1544-4F63-A0A3-34DDFE4AC5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAB42DD-1544-4F63-A0A3-34DDFE4AC5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAB42DD-1544-4F63-A0A3-34DDFE4AC5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0314FD-8CCE-492B-B0B7-144EEEAF9091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0314FD-8CCE-492B-B0B7-144EEEAF9091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0314FD-8CCE-492B-B0B7-144EEEAF9091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0314FD-8CCE-492B-B0B7-144EEEAF9091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324AEB8F-8961-4C85-9B5B-40A850DA0990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324AEB8F-8961-4C85-9B5B-40A850DA0990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324AEB8F-8961-4C85-9B5B-40A850DA0990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324AEB8F-8961-4C85-9B5B-40A850DA0990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBC49E0E-43F8-4B8B-B90F-7CB6DC0B8795} = {92753CC7-2590-4928-8A13-674346349319}
+		{3FD0EAC3-DE34-4771-98E4-DDE9BBA0F036} = {BBC49E0E-43F8-4B8B-B90F-7CB6DC0B8795}
+		{B03A2C5F-D2BA-4959-BCB0-A772C03015F7} = {BBC49E0E-43F8-4B8B-B90F-7CB6DC0B8795}
+		{CDC7A59D-1EB4-42AC-A0DD-671F1FD5A2DA} = {BBC49E0E-43F8-4B8B-B90F-7CB6DC0B8795}
+		{6BAB42DD-1544-4F63-A0A3-34DDFE4AC5E2} = {BBC49E0E-43F8-4B8B-B90F-7CB6DC0B8795}
+		{3B0314FD-8CCE-492B-B0B7-144EEEAF9091} = {D032EE2E-A18D-4FA0-8A42-9D51F5E59E56}
+		{324AEB8F-8961-4C85-9B5B-40A850DA0990} = {E3671E08-71C9-43AC-BCC6-0FA861C40B4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58A59B10-9FB3-4EBC-9D59-6E3360831A1C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ingerickjoel20.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Presentation\\TemplateWeb\\SRAIWeb.csproj
+		SccProjectTopLevelParentUniqueName1 = SRAI.sln
+		SccProjectName1 = Presentation/TemplateWeb
+		SccLocalPath1 = Presentation\\TemplateWeb
+		SccProjectUniqueName2 = Services\\Template\\Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = SRAI.sln
+		SccProjectName2 = Services/Template/Domain
+		SccLocalPath2 = Services\\Template\\Domain
+		SccProjectUniqueName3 = Services\\Template\\Entities\\Entities.csproj
+		SccProjectTopLevelParentUniqueName3 = SRAI.sln
+		SccProjectName3 = Services/Template/Entities
+		SccLocalPath3 = Services\\Template\\Entities
+		SccProjectUniqueName4 = Services\\Template\\Host\\Host.csproj
+		SccProjectTopLevelParentUniqueName4 = SRAI.sln
+		SccProjectName4 = Services/Template/Host
+		SccLocalPath4 = Services\\Template\\Host
+		SccProjectUniqueName5 = Services\\Template\\Infraestructure\\Infraestructure.csproj
+		SccProjectTopLevelParentUniqueName5 = SRAI.sln
+		SccProjectName5 = Services/Template/Infraestructure
+		SccLocalPath5 = Services\\Template\\Infraestructure
+		SccProjectUniqueName6 = Transversal\\TemplateTransversal\\SRAITransversal.csproj
+		SccProjectTopLevelParentUniqueName6 = SRAI.sln
+		SccProjectName6 = Transversal/TemplateTransversal
+		SccLocalPath6 = Transversal\\TemplateTransversal
+	EndGlobalSection
+EndGlobal
